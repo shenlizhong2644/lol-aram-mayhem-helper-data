@@ -5,7 +5,7 @@
     "b": 0,
     "p": "champion/Viego.png?image=c_crop,h_103,w_103,x_9,y_9/q_auto:good,f_webp,w_160,h_160&v=1615"
   },
-  "rank": 124,
+  "rank": 123,
   "startingItems": [],
   "boots": [
     {
@@ -26,30 +26,6 @@
     }
   ],
   "coreItems": [
-    {
-      "id": 6610,
-      "name": "焚天",
-      "icon": {
-        "b": 0,
-        "p": "item/6610.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      }
-    },
-    {
-      "id": 3153,
-      "name": "破败王者之刃",
-      "icon": {
-        "b": 0,
-        "p": "item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      }
-    },
-    {
-      "id": 6333,
-      "name": "死亡之舞",
-      "icon": {
-        "b": 0,
-        "p": "item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      }
-    },
     {
       "id": 6672,
       "name": "海妖杀手",
@@ -72,6 +48,30 @@
       "icon": {
         "b": 0,
         "p": "item/6673.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      }
+    },
+    {
+      "id": 6610,
+      "name": "焚天",
+      "icon": {
+        "b": 0,
+        "p": "item/6610.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      }
+    },
+    {
+      "id": 3153,
+      "name": "破败王者之刃",
+      "icon": {
+        "b": 0,
+        "p": "item/3153.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      }
+    },
+    {
+      "id": 6333,
+      "name": "死亡之舞",
+      "icon": {
+        "b": 0,
+        "p": "item/6333.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       }
     },
     {
@@ -312,15 +312,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "终极不可阻挡",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/UltimateUnstoppable_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "A",
-      "tier": "silver"
-    },
-    {
       "name": "灵魂虹吸",
       "icon": {
         "b": 1,
@@ -328,6 +319,15 @@
       },
       "grade": "A",
       "tier": "gold"
+    },
+    {
+      "name": "终极不可阻挡",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/UltimateUnstoppable_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "A",
+      "tier": "silver"
     },
     {
       "name": "威能之追求",
@@ -411,10 +411,10 @@
       "tier": "gold"
     },
     {
-      "name": "更万用的瞄准镜",
+      "name": "虚幻武器",
       "icon": {
         "b": 1,
-        "p": "aram-augment/ScopierWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/EtherealWeapon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "A",
       "tier": "gold"
@@ -424,15 +424,6 @@
       "icon": {
         "b": 1,
         "p": "aram-augment/Donation_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "A",
-      "tier": "gold"
-    },
-    {
-      "name": "虚幻武器",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/EtherealWeapon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "A",
       "tier": "gold"
@@ -492,15 +483,6 @@
       "tier": "silver"
     },
     {
-      "name": "巨人杀手",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GiantSlayer_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "A",
-      "tier": "prismatic"
-    },
-    {
       "name": "全凭身法",
       "icon": {
         "b": 1,
@@ -537,15 +519,6 @@
       "tier": "silver"
     },
     {
-      "name": "杀意翻涌",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/KillSecure_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "B",
-      "tier": "silver"
-    },
-    {
       "name": "精怪魔法",
       "icon": {
         "b": 1,
@@ -555,19 +528,37 @@
       "tier": "prismatic"
     },
     {
-      "name": "终极唤醒",
+      "name": "杀意翻涌",
       "icon": {
         "b": 1,
-        "p": "aram-augment/ZeroHour_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/KillSecure_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "B",
-      "tier": "prismatic"
+      "tier": "silver"
+    },
+    {
+      "name": "更万用的瞄准镜",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/ScopierWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "gold"
     },
     {
       "name": "和我一起困在这里",
       "icon": {
         "b": 1,
         "p": "aram-augment/StuckInHereWithMe_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "prismatic"
+    },
+    {
+      "name": "终极唤醒",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/ZeroHour_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "B",
       "tier": "prismatic"
@@ -681,6 +672,24 @@
       "tier": "prismatic"
     },
     {
+      "name": "巨人杀手",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GiantSlayer_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "prismatic"
+    },
+    {
+      "name": "术士果汁盒",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/WarlockJuicebox_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "gold"
+    },
+    {
       "name": "自然即是治愈",
       "icon": {
         "b": 1,
@@ -694,15 +703,6 @@
       "icon": {
         "b": 1,
         "p": "aram-augment/SoulEater_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "B",
-      "tier": "gold"
-    },
-    {
-      "name": "术士果汁盒",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/WarlockJuicebox_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "B",
       "tier": "gold"
@@ -789,15 +789,6 @@
       "tier": "silver"
     },
     {
-      "name": "战争交响乐",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/SymphonyOfWar_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "火上浇油",
       "icon": {
         "b": 1,
@@ -807,13 +798,13 @@
       "tier": "gold"
     },
     {
-      "name": "坦克引擎",
+      "name": "战争交响乐",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Tank_Engine_Large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/SymphonyOfWar_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "gold"
+      "tier": "prismatic"
     },
     {
       "name": "快中求稳",
@@ -843,13 +834,13 @@
       "tier": "gold"
     },
     {
-      "name": "万用瞄准镜",
+      "name": "坦克引擎",
       "icon": {
         "b": 1,
-        "p": "aram-augment/ScopedWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Tank_Engine_Large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "silver"
+      "tier": "gold"
     },
     {
       "name": "哎哟，我的硬币！",
@@ -861,19 +852,28 @@
       "tier": "gold"
     },
     {
-      "name": "鲨鱼暴风",
+      "name": "冰雪爆裂",
       "icon": {
         "b": 1,
-        "p": "aram-augment/SharkTempest_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Snowbomb_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "gold"
     },
     {
-      "name": "冰雪爆裂",
+      "name": "万用瞄准镜",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Snowbomb_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/ScopedWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "鲨鱼暴风",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/SharkTempest_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "gold"
@@ -906,13 +906,13 @@
       "tier": "silver"
     },
     {
-      "name": "鲨鱼诱饵",
+      "name": "由暴生急",
       "icon": {
         "b": 1,
-        "p": "aram-augment/FishBait_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/CritnCast_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "gold"
+      "tier": "silver"
     },
     {
       "name": "尊我为王",
@@ -933,22 +933,13 @@
       "tier": "prismatic"
     },
     {
-      "name": "由暴生急",
+      "name": "鲨鱼诱饵",
       "icon": {
         "b": 1,
-        "p": "aram-augment/CritnCast_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/FishBait_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "silver"
-    },
-    {
-      "name": "巨像的勇气",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/CourageOfTheColossus_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
+      "tier": "gold"
     },
     {
       "name": "不动如山",
@@ -960,19 +951,10 @@
       "tier": "gold"
     },
     {
-      "name": "面包和奶酪",
+      "name": "巨像的勇气",
       "icon": {
         "b": 1,
-        "p": "aram-augment/GenericAbilityAugmentIcon_Gold.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "gold"
-    },
-    {
-      "name": "歌利亚巨人",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/Goliath_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/CourageOfTheColossus_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -987,19 +969,28 @@
       "tier": "silver"
     },
     {
-      "name": "全能龙魂",
+      "name": "面包和奶酪",
       "icon": {
         "b": 1,
-        "p": "aram-augment/OmniSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/GenericAbilityAugmentIcon_Gold.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "prismatic"
+      "tier": "gold"
     },
     {
       "name": "神圣雪球",
       "icon": {
         "b": 1,
         "p": "aram-augment/GoldenSnowball_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
+    },
+    {
+      "name": "歌利亚巨人",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/Goliath_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -1014,13 +1005,13 @@
       "tier": "silver"
     },
     {
-      "name": "钢化你心",
+      "name": "海牛阿福的勇士",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Quest_SteelYourHeart_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Quest_UrfsChampion_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "gold"
+      "tier": "prismatic"
     },
     {
       "name": "科学狂人",
@@ -1032,10 +1023,19 @@
       "tier": "prismatic"
     },
     {
-      "name": "海牛阿福的勇士",
+      "name": "钢化你心",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Quest_UrfsChampion_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Quest_SteelYourHeart_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "gold"
+    },
+    {
+      "name": "全能龙魂",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/OmniSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -1050,15 +1050,6 @@
       "tier": "gold"
     },
     {
-      "name": "尖端发明家",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/ApexInventor_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "gold"
-    },
-    {
       "name": "属性叠属性叠属性！",
       "icon": {
         "b": 1,
@@ -1068,13 +1059,13 @@
       "tier": "prismatic"
     },
     {
-      "name": "扇巴掌",
+      "name": "尖端发明家",
       "icon": {
         "b": 1,
-        "p": "aram-augment/SlapAround_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/ApexInventor_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "silver"
+      "tier": "gold"
     },
     {
       "name": "炽烈黎明",
@@ -1086,10 +1077,10 @@
       "tier": "gold"
     },
     {
-      "name": "重量级打击手",
+      "name": "扇巴掌",
       "icon": {
         "b": 1,
-        "p": "aram-augment/HeavyHitter_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/SlapAround_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "silver"
@@ -1108,6 +1099,15 @@
       "icon": {
         "b": 1,
         "p": "aram-augment/Poltergeist_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "重量级打击手",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/HeavyHitter_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "silver"
@@ -1140,15 +1140,6 @@
       "tier": "silver"
     },
     {
-      "name": "海克斯科技龙魂",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/InfernalSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "豪猪",
       "icon": {
         "b": 1,
@@ -1156,6 +1147,15 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "海克斯科技龙魂",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/InfernalSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "泰坦的坚决",
@@ -1194,15 +1194,6 @@
       "tier": "gold"
     },
     {
-      "name": "回力OK镖",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/OKBoomerang_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "gold"
-    },
-    {
       "name": "唯快不破",
       "icon": {
         "b": 1,
@@ -1221,19 +1212,28 @@
       "tier": "prismatic"
     },
     {
-      "name": "电涌力场",
+      "name": "回力OK镖",
       "icon": {
         "b": 1,
-        "p": "aram-augment/SurgeField_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/OKBoomerang_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "prismatic"
+      "tier": "gold"
     },
     {
       "name": "夺金",
       "icon": {
         "b": 1,
         "p": "aram-augment/Goldrend_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
+    },
+    {
+      "name": "电涌力场",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/SurgeField_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -1248,15 +1248,6 @@
       "tier": "gold"
     },
     {
-      "name": "大招工具人",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/SkipTheBasic_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "轻拍背部",
       "icon": {
         "b": 1,
@@ -1264,6 +1255,15 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "大招工具人",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/SkipTheBasic_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
     },
     {
       "name": "别停止引导",
@@ -1293,15 +1293,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "玻璃大炮",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GlassCannon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "回归基本功",
       "icon": {
         "b": 1,
@@ -1318,6 +1309,15 @@
       },
       "grade": "",
       "tier": "silver"
+    },
+    {
+      "name": "玻璃大炮",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GlassCannon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
     },
     {
       "name": "大地苏醒",
@@ -1401,15 +1401,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "冰寒",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/IceCold_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "活力焕发",
       "icon": {
         "b": 1,
@@ -1417,6 +1408,15 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "冰寒",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/IceCold_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "升级：献祭",
@@ -1482,15 +1482,6 @@
       "tier": "silver"
     },
     {
-      "name": "叠角龙",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/StackosaurusRex_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "升级：耀光",
       "icon": {
         "b": 1,
@@ -1509,15 +1500,6 @@
       "tier": "gold"
     },
     {
-      "name": "海洋龙魂",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/OceanSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "坚韧",
       "icon": {
         "b": 1,
@@ -1525,6 +1507,24 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "叠角龙",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/StackosaurusRex_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "海洋龙魂",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/OceanSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "暴击律动",
@@ -1536,15 +1536,6 @@
       "tier": "gold"
     },
     {
-      "name": "连锁反应",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GenericAbilityAugmentIcon_Prismatic.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "坚若磐石",
       "icon": {
         "b": 1,
@@ -1552,6 +1543,15 @@
       },
       "grade": "",
       "tier": "silver"
+    },
+    {
+      "name": "连锁反应",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GenericAbilityAugmentIcon_Prismatic.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
     },
     {
       "name": "升级：花晓之剑",
@@ -1572,15 +1572,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "可靠武器",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GenericAbilityAugmentIcon_Silver.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "喂呜喂呜",
       "icon": {
         "b": 1,
@@ -1599,6 +1590,24 @@
       "tier": "prismatic"
     },
     {
+      "name": "巫师式思考",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/WitchfulThinking_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "神射法师",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/Marksmage_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "gold"
+    },
+    {
       "name": "蛋白粉奶昔",
       "icon": {
         "b": 1,
@@ -1608,6 +1617,15 @@
       "tier": "prismatic"
     },
     {
+      "name": "双生火焰",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/TwinFire_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
       "name": "信念者的强化",
       "icon": {
         "b": 1,
@@ -1615,6 +1633,15 @@
       },
       "grade": "",
       "tier": "prismatic"
+    },
+    {
+      "name": "可靠武器",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GenericAbilityAugmentIcon_Silver.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "双重打击",
@@ -1808,15 +1835,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "终极不可阻挡",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/UltimateUnstoppable_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "A",
-      "tier": "silver"
-    },
-    {
       "name": "灵魂虹吸",
       "icon": {
         "b": 1,
@@ -1824,6 +1842,15 @@
       },
       "grade": "A",
       "tier": "gold"
+    },
+    {
+      "name": "终极不可阻挡",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/UltimateUnstoppable_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "A",
+      "tier": "silver"
     },
     {
       "name": "威能之追求",
@@ -1907,10 +1934,10 @@
       "tier": "gold"
     },
     {
-      "name": "更万用的瞄准镜",
+      "name": "虚幻武器",
       "icon": {
         "b": 1,
-        "p": "aram-augment/ScopierWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/EtherealWeapon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "A",
       "tier": "gold"
@@ -1920,15 +1947,6 @@
       "icon": {
         "b": 1,
         "p": "aram-augment/Donation_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "A",
-      "tier": "gold"
-    },
-    {
-      "name": "虚幻武器",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/EtherealWeapon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "A",
       "tier": "gold"
@@ -1988,15 +2006,6 @@
       "tier": "silver"
     },
     {
-      "name": "巨人杀手",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GiantSlayer_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "A",
-      "tier": "prismatic"
-    },
-    {
       "name": "全凭身法",
       "icon": {
         "b": 1,
@@ -2033,15 +2042,6 @@
       "tier": "silver"
     },
     {
-      "name": "杀意翻涌",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/KillSecure_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "B",
-      "tier": "silver"
-    },
-    {
       "name": "精怪魔法",
       "icon": {
         "b": 1,
@@ -2051,19 +2051,37 @@
       "tier": "prismatic"
     },
     {
-      "name": "终极唤醒",
+      "name": "杀意翻涌",
       "icon": {
         "b": 1,
-        "p": "aram-augment/ZeroHour_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/KillSecure_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "B",
-      "tier": "prismatic"
+      "tier": "silver"
+    },
+    {
+      "name": "更万用的瞄准镜",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/ScopierWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "gold"
     },
     {
       "name": "和我一起困在这里",
       "icon": {
         "b": 1,
         "p": "aram-augment/StuckInHereWithMe_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "prismatic"
+    },
+    {
+      "name": "终极唤醒",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/ZeroHour_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "B",
       "tier": "prismatic"
@@ -2177,6 +2195,24 @@
       "tier": "prismatic"
     },
     {
+      "name": "巨人杀手",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GiantSlayer_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "prismatic"
+    },
+    {
+      "name": "术士果汁盒",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/WarlockJuicebox_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "B",
+      "tier": "gold"
+    },
+    {
       "name": "自然即是治愈",
       "icon": {
         "b": 1,
@@ -2190,15 +2226,6 @@
       "icon": {
         "b": 1,
         "p": "aram-augment/SoulEater_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "B",
-      "tier": "gold"
-    },
-    {
-      "name": "术士果汁盒",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/WarlockJuicebox_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "B",
       "tier": "gold"
@@ -2285,15 +2312,6 @@
       "tier": "silver"
     },
     {
-      "name": "战争交响乐",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/SymphonyOfWar_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "火上浇油",
       "icon": {
         "b": 1,
@@ -2303,13 +2321,13 @@
       "tier": "gold"
     },
     {
-      "name": "坦克引擎",
+      "name": "战争交响乐",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Tank_Engine_Large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/SymphonyOfWar_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "gold"
+      "tier": "prismatic"
     },
     {
       "name": "快中求稳",
@@ -2339,13 +2357,13 @@
       "tier": "gold"
     },
     {
-      "name": "万用瞄准镜",
+      "name": "坦克引擎",
       "icon": {
         "b": 1,
-        "p": "aram-augment/ScopedWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Tank_Engine_Large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "silver"
+      "tier": "gold"
     },
     {
       "name": "哎哟，我的硬币！",
@@ -2357,19 +2375,28 @@
       "tier": "gold"
     },
     {
-      "name": "鲨鱼暴风",
+      "name": "冰雪爆裂",
       "icon": {
         "b": 1,
-        "p": "aram-augment/SharkTempest_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Snowbomb_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "gold"
     },
     {
-      "name": "冰雪爆裂",
+      "name": "万用瞄准镜",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Snowbomb_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/ScopedWeapons_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "鲨鱼暴风",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/SharkTempest_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "gold"
@@ -2402,13 +2429,13 @@
       "tier": "silver"
     },
     {
-      "name": "鲨鱼诱饵",
+      "name": "由暴生急",
       "icon": {
         "b": 1,
-        "p": "aram-augment/FishBait_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/CritnCast_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "gold"
+      "tier": "silver"
     },
     {
       "name": "尊我为王",
@@ -2429,22 +2456,13 @@
       "tier": "prismatic"
     },
     {
-      "name": "由暴生急",
+      "name": "鲨鱼诱饵",
       "icon": {
         "b": 1,
-        "p": "aram-augment/CritnCast_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/FishBait_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "silver"
-    },
-    {
-      "name": "巨像的勇气",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/CourageOfTheColossus_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
+      "tier": "gold"
     },
     {
       "name": "不动如山",
@@ -2456,19 +2474,10 @@
       "tier": "gold"
     },
     {
-      "name": "面包和奶酪",
+      "name": "巨像的勇气",
       "icon": {
         "b": 1,
-        "p": "aram-augment/GenericAbilityAugmentIcon_Gold.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "gold"
-    },
-    {
-      "name": "歌利亚巨人",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/Goliath_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/CourageOfTheColossus_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -2483,19 +2492,28 @@
       "tier": "silver"
     },
     {
-      "name": "全能龙魂",
+      "name": "面包和奶酪",
       "icon": {
         "b": 1,
-        "p": "aram-augment/OmniSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/GenericAbilityAugmentIcon_Gold.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "prismatic"
+      "tier": "gold"
     },
     {
       "name": "神圣雪球",
       "icon": {
         "b": 1,
         "p": "aram-augment/GoldenSnowball_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
+    },
+    {
+      "name": "歌利亚巨人",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/Goliath_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -2510,13 +2528,13 @@
       "tier": "silver"
     },
     {
-      "name": "钢化你心",
+      "name": "海牛阿福的勇士",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Quest_SteelYourHeart_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Quest_UrfsChampion_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "gold"
+      "tier": "prismatic"
     },
     {
       "name": "科学狂人",
@@ -2528,10 +2546,19 @@
       "tier": "prismatic"
     },
     {
-      "name": "海牛阿福的勇士",
+      "name": "钢化你心",
       "icon": {
         "b": 1,
-        "p": "aram-augment/Quest_UrfsChampion_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/Quest_SteelYourHeart_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "gold"
+    },
+    {
+      "name": "全能龙魂",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/OmniSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -2546,15 +2573,6 @@
       "tier": "gold"
     },
     {
-      "name": "尖端发明家",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/ApexInventor_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "gold"
-    },
-    {
       "name": "属性叠属性叠属性！",
       "icon": {
         "b": 1,
@@ -2564,13 +2582,13 @@
       "tier": "prismatic"
     },
     {
-      "name": "扇巴掌",
+      "name": "尖端发明家",
       "icon": {
         "b": 1,
-        "p": "aram-augment/SlapAround_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/ApexInventor_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "silver"
+      "tier": "gold"
     },
     {
       "name": "炽烈黎明",
@@ -2582,10 +2600,10 @@
       "tier": "gold"
     },
     {
-      "name": "重量级打击手",
+      "name": "扇巴掌",
       "icon": {
         "b": 1,
-        "p": "aram-augment/HeavyHitter_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/SlapAround_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "silver"
@@ -2604,6 +2622,15 @@
       "icon": {
         "b": 1,
         "p": "aram-augment/Poltergeist_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "重量级打击手",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/HeavyHitter_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "silver"
@@ -2636,15 +2663,6 @@
       "tier": "silver"
     },
     {
-      "name": "海克斯科技龙魂",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/InfernalSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "豪猪",
       "icon": {
         "b": 1,
@@ -2652,6 +2670,15 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "海克斯科技龙魂",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/InfernalSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "泰坦的坚决",
@@ -2690,15 +2717,6 @@
       "tier": "gold"
     },
     {
-      "name": "回力OK镖",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/OKBoomerang_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "gold"
-    },
-    {
       "name": "唯快不破",
       "icon": {
         "b": 1,
@@ -2717,19 +2735,28 @@
       "tier": "prismatic"
     },
     {
-      "name": "电涌力场",
+      "name": "回力OK镖",
       "icon": {
         "b": 1,
-        "p": "aram-augment/SurgeField_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+        "p": "aram-augment/OKBoomerang_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
-      "tier": "prismatic"
+      "tier": "gold"
     },
     {
       "name": "夺金",
       "icon": {
         "b": 1,
         "p": "aram-augment/Goldrend_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
+    },
+    {
+      "name": "电涌力场",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/SurgeField_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
       },
       "grade": "",
       "tier": "prismatic"
@@ -2744,15 +2771,6 @@
       "tier": "gold"
     },
     {
-      "name": "大招工具人",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/SkipTheBasic_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "轻拍背部",
       "icon": {
         "b": 1,
@@ -2760,6 +2778,15 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "大招工具人",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/SkipTheBasic_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
     },
     {
       "name": "别停止引导",
@@ -2789,15 +2816,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "玻璃大炮",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GlassCannon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "回归基本功",
       "icon": {
         "b": 1,
@@ -2814,6 +2832,15 @@
       },
       "grade": "",
       "tier": "silver"
+    },
+    {
+      "name": "玻璃大炮",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GlassCannon_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
     },
     {
       "name": "大地苏醒",
@@ -2897,15 +2924,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "冰寒",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/IceCold_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "活力焕发",
       "icon": {
         "b": 1,
@@ -2913,6 +2931,15 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "冰寒",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/IceCold_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "升级：献祭",
@@ -2978,15 +3005,6 @@
       "tier": "silver"
     },
     {
-      "name": "叠角龙",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/StackosaurusRex_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "升级：耀光",
       "icon": {
         "b": 1,
@@ -3005,15 +3023,6 @@
       "tier": "gold"
     },
     {
-      "name": "海洋龙魂",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/OceanSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "坚韧",
       "icon": {
         "b": 1,
@@ -3021,6 +3030,24 @@
       },
       "grade": "",
       "tier": "gold"
+    },
+    {
+      "name": "叠角龙",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/StackosaurusRex_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "海洋龙魂",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/OceanSoul_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "暴击律动",
@@ -3032,15 +3059,6 @@
       "tier": "gold"
     },
     {
-      "name": "连锁反应",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GenericAbilityAugmentIcon_Prismatic.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "prismatic"
-    },
-    {
       "name": "坚若磐石",
       "icon": {
         "b": 1,
@@ -3048,6 +3066,15 @@
       },
       "grade": "",
       "tier": "silver"
+    },
+    {
+      "name": "连锁反应",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GenericAbilityAugmentIcon_Prismatic.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "prismatic"
     },
     {
       "name": "升级：花晓之剑",
@@ -3068,15 +3095,6 @@
       "tier": "prismatic"
     },
     {
-      "name": "可靠武器",
-      "icon": {
-        "b": 1,
-        "p": "aram-augment/GenericAbilityAugmentIcon_Silver.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
-      },
-      "grade": "",
-      "tier": "silver"
-    },
-    {
       "name": "喂呜喂呜",
       "icon": {
         "b": 1,
@@ -3095,6 +3113,24 @@
       "tier": "prismatic"
     },
     {
+      "name": "巫师式思考",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/WitchfulThinking_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
+      "name": "神射法师",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/Marksmage_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "gold"
+    },
+    {
       "name": "蛋白粉奶昔",
       "icon": {
         "b": 1,
@@ -3104,6 +3140,15 @@
       "tier": "prismatic"
     },
     {
+      "name": "双生火焰",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/TwinFire_large.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
+    },
+    {
       "name": "信念者的强化",
       "icon": {
         "b": 1,
@@ -3111,6 +3156,15 @@
       },
       "grade": "",
       "tier": "prismatic"
+    },
+    {
+      "name": "可靠武器",
+      "icon": {
+        "b": 1,
+        "p": "aram-augment/GenericAbilityAugmentIcon_Silver.png?image=q_auto:good,f_webp,w_64,h_64&v=1615"
+      },
+      "grade": "",
+      "tier": "silver"
     },
     {
       "name": "双重打击",
