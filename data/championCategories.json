@@ -34,11 +34,11 @@
     "tank",
     "support"
   ],
-  "yone": [
-    "assassin",
-    "fighter"
-  ],
   "hecarim": [
+    "fighter",
+    "tank"
+  ],
+  "xinzhao": [
     "fighter",
     "tank"
   ],
@@ -50,9 +50,12 @@
     "assassin",
     "fighter"
   ],
-  "xinzhao": [
-    "fighter",
-    "tank"
+  "yone": [
+    "assassin",
+    "fighter"
+  ],
+  "sona": [
+    "mage"
   ],
   "ahri": [
     "assassin",
@@ -62,9 +65,6 @@
     "fighter",
     "tank"
   ],
-  "sona": [
-    "mage"
-  ],
   "seraphine": [
     "mage",
     "support"
@@ -73,14 +73,14 @@
     "fighter",
     "tank"
   ],
-  "yunara": [
-    "marksman"
+  "hwei": [
+    "mage"
   ],
   "jax": [
     "fighter"
   ],
-  "hwei": [
-    "mage"
+  "yunara": [
+    "marksman"
   ],
   "jinx": [
     "marksman",
@@ -98,14 +98,6 @@
     "assassin",
     "mage"
   ],
-  "missfortune": [
-    "mage",
-    "marksman"
-  ],
-  "viego": [
-    "assassin",
-    "fighter"
-  ],
   "graves": [
     "marksman",
     "mage"
@@ -114,17 +106,25 @@
     "tank",
     "fighter"
   ],
+  "viego": [
+    "assassin",
+    "fighter"
+  ],
   "gwen": [
     "fighter"
   ],
-  "gangplank": [
+  "fiora": [
+    "assassin",
     "fighter"
+  ],
+  "missfortune": [
+    "mage",
+    "marksman"
   ],
   "viktor": [
     "mage"
   ],
-  "fiora": [
-    "assassin",
+  "gangplank": [
     "fighter"
   ],
   "nasus": [
@@ -138,23 +138,23 @@
   "aurelionsol": [
     "mage"
   ],
+  "velkoz": [
+    "mage"
+  ],
   "vayne": [
     "marksman",
     "assassin"
-  ],
-  "velkoz": [
-    "mage"
   ],
   "galio": [
     "tank",
     "fighter"
   ],
-  "rell": [
-    "support",
-    "tank"
-  ],
   "monkeyking": [
     "fighter",
+    "tank"
+  ],
+  "rell": [
+    "support",
     "tank"
   ],
   "janna": [
@@ -171,12 +171,11 @@
     "mage",
     "fighter"
   ],
-  "tryndamere": [
-    "assassin",
-    "fighter"
-  ],
   "aurora": [
     "assassin",
+    "mage"
+  ],
+  "xerath": [
     "mage"
   ],
   "malzahar": [
@@ -186,35 +185,43 @@
     "assassin",
     "fighter"
   ],
-  "poppy": [
-    "fighter",
-    "tank"
+  "tryndamere": [
+    "assassin",
+    "fighter"
+  ],
+  "rengar": [
+    "assassin",
+    "fighter"
   ],
   "belveth": [
     "fighter",
     "assassin"
   ],
-  "rengar": [
+  "poppy": [
+    "fighter",
+    "tank"
+  ],
+  "fizz": [
     "assassin",
     "fighter"
   ],
   "milio": [
     "mage"
   ],
-  "fizz": [
-    "assassin",
-    "fighter"
+  "volibear": [
+    "fighter",
+    "tank"
   ],
-  "xerath": [
+  "heimerdinger": [
+    "mage"
+  ],
+  "syndra": [
     "mage"
   ],
   "zyra": [
     "mage"
   ],
-  "heimerdinger": [
-    "mage"
-  ],
-  "volibear": [
+  "shen": [
     "fighter",
     "tank"
   ],
@@ -222,22 +229,15 @@
     "fighter",
     "tank"
   ],
-  "syndra": [
-    "mage"
-  ],
-  "shen": [
-    "fighter",
-    "tank"
-  ],
-  "aphelios": [
-    "marksman",
-    "mage"
+  "talon": [
+    "assassin"
   ],
   "zed": [
     "assassin"
   ],
-  "talon": [
-    "assassin"
+  "aphelios": [
+    "marksman",
+    "mage"
   ],
   "rumble": [
     "mage",
@@ -251,12 +251,16 @@
     "assassin",
     "fighter"
   ],
+  "ivern": [
+    "mage"
+  ],
   "caitlyn": [
     "marksman",
     "mage"
   ],
-  "ivern": [
-    "mage"
+  "warwick": [
+    "fighter",
+    "tank"
   ],
   "nilah": [
     "assassin",
@@ -266,10 +270,6 @@
     "support",
     "tank"
   ],
-  "warwick": [
-    "fighter",
-    "tank"
-  ],
   "olaf": [
     "fighter",
     "tank"
@@ -277,10 +277,6 @@
   "kalista": [
     "marksman",
     "mage"
-  ],
-  "kayn": [
-    "assassin",
-    "fighter"
   ],
   "kled": [
     "fighter"
@@ -293,19 +289,23 @@
     "fighter",
     "tank"
   ],
-  "zeri": [
-    "marksman",
-    "mage"
-  ],
   "camille": [
     "assassin",
     "fighter"
   ],
-  "zilean": [
-    "mage"
-  ],
   "vex": [
     "mage"
+  ],
+  "kayn": [
+    "assassin",
+    "fighter"
+  ],
+  "zeri": [
+    "marksman",
+    "mage"
+  ],
+  "draven": [
+    "marksman"
   ],
   "evelynn": [
     "assassin",
@@ -318,9 +318,6 @@
     "assassin",
     "mage"
   ],
-  "draven": [
-    "marksman"
-  ],
   "nocturne": [
     "assassin",
     "fighter"
@@ -332,8 +329,15 @@
     "assassin",
     "fighter"
   ],
+  "zilean": [
+    "mage"
+  ],
   "yorick": [
     "fighter",
+    "tank"
+  ],
+  "thresh": [
+    "support",
     "tank"
   ],
   "azir": [
@@ -343,14 +347,7 @@
     "fighter",
     "tank"
   ],
-  "thresh": [
-    "support",
-    "tank"
-  ],
   "taliyah": [
-    "mage"
-  ],
-  "renata": [
     "mage"
   ],
   "darius": [
@@ -361,41 +358,40 @@
     "support",
     "tank"
   ],
+  "swain": [
+    "mage"
+  ],
+  "bard": [
+    "mage"
+  ],
+  "renata": [
+    "mage"
+  ],
   "vi": [
     "assassin",
     "fighter"
+  ],
+  "varus": [
+    "mage",
+    "marksman"
   ],
   "renekton": [
     "fighter",
     "tank"
   ],
-  "bard": [
-    "mage"
-  ],
   "udyr": [
     "fighter",
     "tank"
   ],
-  "nami": [
-    "mage"
-  ],
   "lissandra": [
     "mage"
   ],
-  "corki": [
-    "mage",
-    "marksman"
-  ],
-  "gragas": [
-    "mage",
-    "fighter"
-  ],
-  "swain": [
+  "katarina": [
+    "assassin",
     "mage"
   ],
-  "sejuani": [
-    "fighter",
-    "tank"
+  "nami": [
+    "mage"
   ],
   "khazix": [
     "assassin"
@@ -404,25 +400,29 @@
     "assassin",
     "fighter"
   ],
-  "katarina": [
-    "assassin",
-    "mage"
+  "gragas": [
+    "mage",
+    "fighter"
   ],
-  "kogmaw": [
+  "sejuani": [
+    "fighter",
+    "tank"
+  ],
+  "corki": [
     "mage",
     "marksman"
   ],
-  "varus": [
-    "mage",
-    "marksman"
+  "nautilus": [
+    "support",
+    "tank"
   ],
   "illaoi": [
     "fighter",
     "tank"
   ],
-  "nautilus": [
-    "support",
-    "tank"
+  "kogmaw": [
+    "mage",
+    "marksman"
   ],
   "fiddlesticks": [
     "mage"
@@ -452,18 +452,25 @@
   "qiyana": [
     "assassin"
   ],
-  "cassiopeia": [
-    "mage"
-  ],
   "naafiri": [
     "assassin",
     "fighter"
+  ],
+  "quinn": [
+    "assassin",
+    "marksman"
   ],
   "braum": [
     "tank",
     "support"
   ],
-  "quinn": [
+  "cassiopeia": [
+    "mage"
+  ],
+  "zoe": [
+    "mage"
+  ],
+  "samira": [
     "assassin",
     "marksman"
   ],
@@ -474,39 +481,32 @@
   "karma": [
     "mage"
   ],
-  "zoe": [
-    "mage"
-  ],
   "soraka": [
     "mage"
   ],
-  "samira": [
-    "assassin",
-    "marksman"
-  ],
-  "lulu": [
+  "veigar": [
     "mage"
   ],
-  "veigar": [
+  "lulu": [
     "mage"
   ],
   "mordekaiser": [
     "mage",
     "assassin"
   ],
-  "ksante": [
-    "fighter",
-    "tank"
+  "kennen": [
+    "mage"
   ],
-  "gnar": [
+  "ksante": [
     "fighter",
     "tank"
   ],
   "karthus": [
     "mage"
   ],
-  "kennen": [
-    "mage"
+  "gnar": [
+    "fighter",
+    "tank"
   ],
   "locke": [
     "fighter"
@@ -529,21 +529,21 @@
     "fighter",
     "tank"
   ],
-  "akshan": [
-    "assassin",
-    "marksman"
-  ],
   "akali": [
     "assassin"
-  ],
-  "ziggs": [
-    "mage"
   ],
   "twitch": [
     "assassin",
     "marksman"
   ],
+  "akshan": [
+    "assassin",
+    "marksman"
+  ],
   "neeko": [
+    "mage"
+  ],
+  "ziggs": [
     "mage"
   ],
   "anivia": [
@@ -553,11 +553,11 @@
     "assassin",
     "mage"
   ],
-  "jarvaniv": [
+  "garen": [
     "fighter",
     "tank"
   ],
-  "garen": [
+  "jarvaniv": [
     "fighter",
     "tank"
   ],
@@ -569,20 +569,20 @@
     "marksman",
     "fighter"
   ],
-  "malphite": [
-    "tank",
-    "fighter"
-  ],
   "senna": [
     "mage",
     "marksman"
   ],
-  "shaco": [
-    "assassin"
+  "malphite": [
+    "tank",
+    "fighter"
   ],
   "lucian": [
     "assassin",
     "marksman"
+  ],
+  "shaco": [
+    "assassin"
   ],
   "smolder": [
     "mage",
@@ -596,9 +596,6 @@
     "assassin",
     "fighter"
   ],
-  "lux": [
-    "mage"
-  ],
   "jhin": [
     "mage",
     "marksman"
@@ -607,15 +604,18 @@
     "assassin",
     "mage"
   ],
+  "lux": [
+    "mage"
+  ],
   "brand": [
+    "mage"
+  ],
+  "mel": [
     "mage"
   ],
   "kaisa": [
     "mage",
     "marksman"
-  ],
-  "mel": [
-    "mage"
   ],
   "ezreal": [
     "mage",
